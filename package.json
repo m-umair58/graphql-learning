@@ -1,0 +1,21 @@
+{
+  "name": "learning-netninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@prisma/client": "^5.22.0",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.9.0",
+    "prisma": "^5.22.0"
+  },
+  "type": "module"
+}
